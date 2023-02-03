@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8c5a2b9118.js" crossorigin="anonymous"></script>
+    <title>Jose Luis's Portfolio</title>
+</head>
+<body>
+    <header>
+        <a id="logo" href="index.html"><img src="assets/images/Logo-Placeholder.png" alt="Portfolio Logo"></a>
+        <nav>
+            <a class="nav-desktop hide" href="#portfolio">Portfolio</a>
+            <a class="nav-desktop hide" href="#about">About</a>
+            <a class="nav-desktop hide" href="#contact">contact</a>
+            <img id="mail-icon" class="nav-desktop" hidden src="assets/images/Mail.png" alt="Contact icon">
+            <img id="menu-icon" class="nav-mobile" src="assets/images/Menu.png" alt="Menu icon">
+            <img id="exit-icon" class="nav-mobile hide" src="assets/images/Exit.png" alt="Exit icon">
+            <div class="menu-indicator hide">
+                <img src="assets/images/Bar.png" alt="Bar">
+            </div>
+        </nav>
+    </header>
+
+    <section class="container">
+        <section class="headline">
+            <div class="primary-text">
+                <h1>Hey There. <br> I’m Jose Luis</h1>
+            </div>
+            <div class="supporting-text">
+                <h2>I’m a Software Developer</h2>
+            </div>
+            <div class="description">
+                <p>I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                    don’t hestiate to contact me.</p>
+            </div>
+            <div class="social-media">
+                <a href="https://github.com/jlvFlores"><i class="fa fa-brands fa-github fa-1x"></i></a>
+                <a href="https://www.linkedin.com/in/jose-vazquez-178a8225a/"><i class="fa fa-brands fa-linkedin fa-1x"></i></a>
+                <a href="#"><i class="fa fa-brands fa-angellist fa-1x"></i></a>
+                <a href="https://twitter.com/JoseVaz44312762"><i class="fa fa-brands fa-twitter fa-1x"></i></i></a>
+                <a href="#"><i class="fa fa-brands fa-medium fa-1x"></i></a>
+            </div>
+        </section>
+        <section id="portfolio" class="recent-works">
+            <h2>My Recent Works</h2>
+            <div class="featured-work">
+            </div>
+            <div class="card-works">
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="gen-desc">
+                <h2 class="heading-text">About me</h2>
+                <p class="paragraph-text">Hello I’m a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                <button class="btn">Get My Resume</button>
+            </div>
+            <ul class="skills">
+                <li>
+                    <div class="sub-skills">
+                        <img src="assets/images/Diamond.png" alt="Diamond bulletpoint">
+                        <h3>Language</h3>
+                    </div>
+                    <ul class="skill-type">
+                        <li>Javascript</li>
+                        <li>Ruby</li>
+                        <li>Html</li>
+                        <li>Css</li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="sub-skills">
+                        <img src="assets/images/Square.png" alt="Square bulletpoint">
+                        <h3>Framework</h3>
+                    </div>
+                    <ul class="skill-type">
+                        <li>Bootstrap</li>
+                        <li>Ruby on Rails</li>
+                        <li>RSPec</li>
+                        <li>CapyBara</li>
+                        <li>Selenium</li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="sub-skills">
+                        <img src="assets/images/Circle.png" alt="Circle bulletpoint">
+                        <h3>Skills</h3>
+                    </div>
+                    <ul class="skill-type">
+                        <li>Codekit</li>
+                        <li>Github</li>
+                        <li>Codepen</li>
+                        <li>Gitlab</li>
+                        <li>Terminal</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="contact" class="form-container">
+            <p class="contact-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+            <form id="contact-form" action="https://formspree.io/f/mjvdkwqz" method="post" class="contact-form">
+                <label for="user-name" hidden >Full name</label>
+                <input type="text" id="user-name" name="name" class="input-field field" placeholder="Full name" maxlength="30" required>
+                <label for="user-email" hidden>Email</label>
+                <input type="email" id="user-email" name="email" class="input-field field" placeholder="Email" required>
+                <label for="user-message" hidden>Message</label>
+                <textarea id="user-message" name="message" class="textarea-field field" placeholder="Enter Text here" maxlength="500" required></textarea>
+                <button type="submit" class="btn">Get in touch</button>
+            </form>
+        </section>
+        <footer>
+            <a href="https://github.com/jlvFlores"><i class="fa fa-brands fa-github fa-1x"></i></a>
+            <a href="https://www.linkedin.com/in/jose-vazquez-178a8225a/"><i class="fa fa-brands fa-linkedin fa-1x"></i></a>
+            <a href="#"><i class="fa fa-brands fa-angellist fa-1x"></i></a>
+            <a href="https://twitter.com/JoseVaz44312762"><i class="fa fa-brands fa-twitter fa-1x"></i></i></a>
+            <a href="#"><i class="fa fa-brands fa-medium fa-1x"></i></a>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
